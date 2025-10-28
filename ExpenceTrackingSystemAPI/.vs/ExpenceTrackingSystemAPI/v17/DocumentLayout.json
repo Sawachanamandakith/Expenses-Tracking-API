@@ -1,0 +1,577 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\sawam\\source\\repos\\ExpenceTrackingSystemAPI\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{9E0F93C3-747F-4920-B6C6-1FD3E9D314F3}|WebApplication1\\ExpenceTrackingSystemAPI.csproj|c:\\users\\sawam\\source\\repos\\expencetrackingsystemapi\\webapplication1\\databaseconnectivity\\dbconnect.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9E0F93C3-747F-4920-B6C6-1FD3E9D314F3}|WebApplication1\\ExpenceTrackingSystemAPI.csproj|solutionrelative:webapplication1\\databaseconnectivity\\dbconnect.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9E0F93C3-747F-4920-B6C6-1FD3E9D314F3}|WebApplication1\\ExpenceTrackingSystemAPI.csproj|C:\\Users\\sawam\\source\\repos\\ExpenceTrackingSystemAPI\\webapplication1\\controllers\\transactioncontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9E0F93C3-747F-4920-B6C6-1FD3E9D314F3}|WebApplication1\\ExpenceTrackingSystemAPI.csproj|solutionrelative:webapplication1\\controllers\\transactioncontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9E0F93C3-747F-4920-B6C6-1FD3E9D314F3}|WebApplication1\\ExpenceTrackingSystemAPI.csproj|C:\\Users\\sawam\\source\\repos\\ExpenceTrackingSystemAPI\\webapplication1\\models\\requestapimodels\\transactionrequestapi.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9E0F93C3-747F-4920-B6C6-1FD3E9D314F3}|WebApplication1\\ExpenceTrackingSystemAPI.csproj|solutionrelative:webapplication1\\models\\requestapimodels\\transactionrequestapi.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9E0F93C3-747F-4920-B6C6-1FD3E9D314F3}|WebApplication1\\WebApplication1.csproj|C:\\Users\\sawam\\source\\repos\\ExpenceTrackingSystemAPI\\webapplication1\\models\\requestapimodels\\transactionrequestapi.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9E0F93C3-747F-4920-B6C6-1FD3E9D314F3}|WebApplication1\\WebApplication1.csproj|solutionrelative:webapplication1\\models\\requestapimodels\\transactionrequestapi.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9E0F93C3-747F-4920-B6C6-1FD3E9D314F3}|WebApplication1\\WebApplication1.csproj|C:\\Users\\sawam\\source\\repos\\ExpenceTrackingSystemAPI\\webapplication1\\controllers\\transactioncontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9E0F93C3-747F-4920-B6C6-1FD3E9D314F3}|WebApplication1\\WebApplication1.csproj|solutionrelative:webapplication1\\controllers\\transactioncontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9E0F93C3-747F-4920-B6C6-1FD3E9D314F3}|WebApplication1\\WebApplication1.csproj|C:\\Users\\sawam\\source\\repos\\ExpenceTrackingSystemAPI\\webapplication1\\dataaccess\\dauser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9E0F93C3-747F-4920-B6C6-1FD3E9D314F3}|WebApplication1\\WebApplication1.csproj|solutionrelative:webapplication1\\dataaccess\\dauser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9E0F93C3-747F-4920-B6C6-1FD3E9D314F3}|WebApplication1\\WebApplication1.csproj|C:\\Users\\sawam\\source\\repos\\ExpenceTrackingSystemAPI\\webapplication1\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9E0F93C3-747F-4920-B6C6-1FD3E9D314F3}|WebApplication1\\WebApplication1.csproj|solutionrelative:webapplication1\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9E0F93C3-747F-4920-B6C6-1FD3E9D314F3}|WebApplication1\\ExpenceTrackingSystemAPI.csproj|C:\\Users\\sawam\\source\\repos\\ExpenceTrackingSystemAPI\\webapplication1\\models\\requestapimodels\\userrequestapi.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9E0F93C3-747F-4920-B6C6-1FD3E9D314F3}|WebApplication1\\ExpenceTrackingSystemAPI.csproj|solutionrelative:webapplication1\\models\\requestapimodels\\userrequestapi.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9E0F93C3-747F-4920-B6C6-1FD3E9D314F3}|WebApplication1\\ExpenceTrackingSystemAPI.csproj|C:\\Users\\sawam\\source\\repos\\ExpenceTrackingSystemAPI\\webapplication1\\models\\requestapi.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9E0F93C3-747F-4920-B6C6-1FD3E9D314F3}|WebApplication1\\ExpenceTrackingSystemAPI.csproj|solutionrelative:webapplication1\\models\\requestapi.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9E0F93C3-747F-4920-B6C6-1FD3E9D314F3}|WebApplication1\\WebApplication1.csproj|C:\\Users\\sawam\\source\\repos\\ExpenceTrackingSystemAPI\\webapplication1\\models\\requestapi.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9E0F93C3-747F-4920-B6C6-1FD3E9D314F3}|WebApplication1\\WebApplication1.csproj|solutionrelative:webapplication1\\models\\requestapi.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9E0F93C3-747F-4920-B6C6-1FD3E9D314F3}|WebApplication1\\WebApplication1.csproj|C:\\Users\\sawam\\source\\repos\\ExpenceTrackingSystemAPI\\webapplication1\\models\\requestapimodels\\userrequestapi.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9E0F93C3-747F-4920-B6C6-1FD3E9D314F3}|WebApplication1\\WebApplication1.csproj|solutionrelative:webapplication1\\models\\requestapimodels\\userrequestapi.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9E0F93C3-747F-4920-B6C6-1FD3E9D314F3}|WebApplication1\\Ex.csproj|C:\\Users\\sawam\\source\\repos\\ExpenceTrackingSystemAPI\\webapplication1\\models\\response.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9E0F93C3-747F-4920-B6C6-1FD3E9D314F3}|WebApplication1\\Ex.csproj|solutionrelative:webapplication1\\models\\response.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9E0F93C3-747F-4920-B6C6-1FD3E9D314F3}|WebApplication1\\WebApplication1.csproj|C:\\Users\\sawam\\source\\repos\\ExpenceTrackingSystemAPI\\webapplication1\\models\\requestapimodels\\userloginrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9E0F93C3-747F-4920-B6C6-1FD3E9D314F3}|WebApplication1\\WebApplication1.csproj|solutionrelative:webapplication1\\models\\requestapimodels\\userloginrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9E0F93C3-747F-4920-B6C6-1FD3E9D314F3}|WebApplication1\\WebApplication1.csproj|C:\\Users\\sawam\\source\\repos\\ExpenceTrackingSystemAPI\\webapplication1\\static\\loghandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9E0F93C3-747F-4920-B6C6-1FD3E9D314F3}|WebApplication1\\WebApplication1.csproj|solutionrelative:webapplication1\\static\\loghandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9E0F93C3-747F-4920-B6C6-1FD3E9D314F3}|WebApplication1\\WebApplication1.csproj|C:\\Users\\sawam\\source\\repos\\ExpenceTrackingSystemAPI\\webapplication1\\models\\response.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9E0F93C3-747F-4920-B6C6-1FD3E9D314F3}|WebApplication1\\WebApplication1.csproj|solutionrelative:webapplication1\\models\\response.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9E0F93C3-747F-4920-B6C6-1FD3E9D314F3}|WebApplication1\\WebApplication1.csproj|C:\\Users\\sawam\\source\\repos\\ExpenceTrackingSystemAPI\\webapplication1\\models\\transactionmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9E0F93C3-747F-4920-B6C6-1FD3E9D314F3}|WebApplication1\\WebApplication1.csproj|solutionrelative:webapplication1\\models\\transactionmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9E0F93C3-747F-4920-B6C6-1FD3E9D314F3}|WebApplication1\\WebApplication1.csproj|C:\\Users\\sawam\\source\\repos\\ExpenceTrackingSystemAPI\\webapplication1\\interfaces\\icategory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9E0F93C3-747F-4920-B6C6-1FD3E9D314F3}|WebApplication1\\WebApplication1.csproj|solutionrelative:webapplication1\\interfaces\\icategory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9E0F93C3-747F-4920-B6C6-1FD3E9D314F3}|WebApplication1\\WebApplication1.csproj|C:\\Users\\sawam\\source\\repos\\ExpenceTrackingSystemAPI\\webapplication1\\models\\requestapimodels\\categoryrequestapi.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9E0F93C3-747F-4920-B6C6-1FD3E9D314F3}|WebApplication1\\WebApplication1.csproj|solutionrelative:webapplication1\\models\\requestapimodels\\categoryrequestapi.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9E0F93C3-747F-4920-B6C6-1FD3E9D314F3}|WebApplication1\\WebApplication1.csproj|C:\\Users\\sawam\\source\\repos\\ExpenceTrackingSystemAPI\\webapplication1\\models\\requestapimodels\\userforgotpasswordrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9E0F93C3-747F-4920-B6C6-1FD3E9D314F3}|WebApplication1\\WebApplication1.csproj|solutionrelative:webapplication1\\models\\requestapimodels\\userforgotpasswordrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9E0F93C3-747F-4920-B6C6-1FD3E9D314F3}|WebApplication1\\WebApplication1.csproj|C:\\Users\\sawam\\source\\repos\\ExpenceTrackingSystemAPI\\webapplication1\\dataaccess\\datransaction.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9E0F93C3-747F-4920-B6C6-1FD3E9D314F3}|WebApplication1\\WebApplication1.csproj|solutionrelative:webapplication1\\dataaccess\\datransaction.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9E0F93C3-747F-4920-B6C6-1FD3E9D314F3}|WebApplication1\\WebApplication1.csproj|C:\\Users\\sawam\\source\\repos\\ExpenceTrackingSystemAPI\\webapplication1\\models\\requestapimodels\\userresetpasswordrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9E0F93C3-747F-4920-B6C6-1FD3E9D314F3}|WebApplication1\\WebApplication1.csproj|solutionrelative:webapplication1\\models\\requestapimodels\\userresetpasswordrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9E0F93C3-747F-4920-B6C6-1FD3E9D314F3}|WebApplication1\\WebApplication1.csproj|C:\\Users\\sawam\\source\\repos\\ExpenceTrackingSystemAPI\\webapplication1\\interfaces\\itransaction.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9E0F93C3-747F-4920-B6C6-1FD3E9D314F3}|WebApplication1\\WebApplication1.csproj|solutionrelative:webapplication1\\interfaces\\itransaction.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9E0F93C3-747F-4920-B6C6-1FD3E9D314F3}|WebApplication1\\WebApplication1.csproj|C:\\Users\\sawam\\source\\repos\\ExpenceTrackingSystemAPI\\webapplication1\\models\\dailytotalsmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9E0F93C3-747F-4920-B6C6-1FD3E9D314F3}|WebApplication1\\WebApplication1.csproj|solutionrelative:webapplication1\\models\\dailytotalsmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9E0F93C3-747F-4920-B6C6-1FD3E9D314F3}|WebApplication1\\WebApplication1.csproj|C:\\Users\\sawam\\source\\repos\\ExpenceTrackingSystemAPI\\webapplication1\\models\\categorysummarymodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9E0F93C3-747F-4920-B6C6-1FD3E9D314F3}|WebApplication1\\WebApplication1.csproj|solutionrelative:webapplication1\\models\\categorysummarymodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9E0F93C3-747F-4920-B6C6-1FD3E9D314F3}|WebApplication1\\WebApplication1.csproj|C:\\Users\\sawam\\source\\repos\\ExpenceTrackingSystemAPI\\webapplication1\\models\\categorymodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9E0F93C3-747F-4920-B6C6-1FD3E9D314F3}|WebApplication1\\WebApplication1.csproj|solutionrelative:webapplication1\\models\\categorymodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9E0F93C3-747F-4920-B6C6-1FD3E9D314F3}|WebApplication1\\WebApplication1.csproj|C:\\Users\\sawam\\source\\repos\\ExpenceTrackingSystemAPI\\webapplication1\\dataaccess\\daemployee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9E0F93C3-747F-4920-B6C6-1FD3E9D314F3}|WebApplication1\\WebApplication1.csproj|solutionrelative:webapplication1\\dataaccess\\daemployee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9E0F93C3-747F-4920-B6C6-1FD3E9D314F3}|WebApplication1\\WebApplication1.csproj|C:\\Users\\sawam\\source\\repos\\ExpenceTrackingSystemAPI\\webapplication1\\dataaccess\\dacategory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9E0F93C3-747F-4920-B6C6-1FD3E9D314F3}|WebApplication1\\WebApplication1.csproj|solutionrelative:webapplication1\\dataaccess\\dacategory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9E0F93C3-747F-4920-B6C6-1FD3E9D314F3}|WebApplication1\\WebApplication1.csproj|C:\\Users\\sawam\\source\\repos\\ExpenceTrackingSystemAPI\\webapplication1\\controllers\\categorycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9E0F93C3-747F-4920-B6C6-1FD3E9D314F3}|WebApplication1\\WebApplication1.csproj|solutionrelative:webapplication1\\controllers\\categorycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9E0F93C3-747F-4920-B6C6-1FD3E9D314F3}|WebApplication1\\WebApplication1.csproj|C:\\Users\\sawam\\source\\repos\\ExpenceTrackingSystemAPI\\webapplication1\\app_start\\unityconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9E0F93C3-747F-4920-B6C6-1FD3E9D314F3}|WebApplication1\\WebApplication1.csproj|solutionrelative:webapplication1\\app_start\\unityconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9E0F93C3-747F-4920-B6C6-1FD3E9D314F3}|WebApplication1\\WebApplication1.csproj|C:\\Users\\sawam\\source\\repos\\ExpenceTrackingSystemAPI\\webapplication1\\interfaces\\iuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9E0F93C3-747F-4920-B6C6-1FD3E9D314F3}|WebApplication1\\WebApplication1.csproj|solutionrelative:webapplication1\\interfaces\\iuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9E0F93C3-747F-4920-B6C6-1FD3E9D314F3}|WebApplication1\\WebApplication1.csproj|C:\\Users\\sawam\\source\\repos\\ExpenceTrackingSystemAPI\\webapplication1\\models\\usermodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9E0F93C3-747F-4920-B6C6-1FD3E9D314F3}|WebApplication1\\WebApplication1.csproj|solutionrelative:webapplication1\\models\\usermodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9E0F93C3-747F-4920-B6C6-1FD3E9D314F3}|WebApplication1\\WebApplication1.csproj|C:\\Users\\sawam\\source\\repos\\ExpenceTrackingSystemAPI\\webapplication1\\interfaces\\iemployee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9E0F93C3-747F-4920-B6C6-1FD3E9D314F3}|WebApplication1\\WebApplication1.csproj|solutionrelative:webapplication1\\interfaces\\iemployee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9E0F93C3-747F-4920-B6C6-1FD3E9D314F3}|WebApplication1\\WebApplication1.csproj|C:\\Users\\sawam\\source\\repos\\ExpenceTrackingSystemAPI\\webapplication1\\interfaces\\itest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9E0F93C3-747F-4920-B6C6-1FD3E9D314F3}|WebApplication1\\WebApplication1.csproj|solutionrelative:webapplication1\\interfaces\\itest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9E0F93C3-747F-4920-B6C6-1FD3E9D314F3}|WebApplication1\\WebApplication1.csproj|C:\\Users\\sawam\\source\\repos\\ExpenceTrackingSystemAPI\\webapplication1\\models\\proceduredbmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9E0F93C3-747F-4920-B6C6-1FD3E9D314F3}|WebApplication1\\WebApplication1.csproj|solutionrelative:webapplication1\\models\\proceduredbmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 6,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{c9c0ae26-aa77-11d2-b3f0-0000f87570ee}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{eefa5220-e298-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "TransactionController.cs",
+              "DocumentMoniker": "C:\\Users\\sawam\\source\\repos\\ExpenceTrackingSystemAPI\\WebApplication1\\Controllers\\TransactionController.cs",
+              "RelativeDocumentMoniker": "WebApplication1\\Controllers\\TransactionController.cs",
+              "ToolTip": "C:\\Users\\sawam\\source\\repos\\ExpenceTrackingSystemAPI\\WebApplication1\\Controllers\\TransactionController.cs",
+              "RelativeToolTip": "WebApplication1\\Controllers\\TransactionController.cs",
+              "ViewState": "AgIAABAAAAAAAAAAAAAzwBUAAAAqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-28T06:40:32.166Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "TransactionRequestAPI.cs",
+              "DocumentMoniker": "C:\\Users\\sawam\\source\\repos\\ExpenceTrackingSystemAPI\\WebApplication1\\Models\\RequestApiModels\\TransactionRequestAPI.cs",
+              "RelativeDocumentMoniker": "WebApplication1\\Models\\RequestApiModels\\TransactionRequestAPI.cs",
+              "ToolTip": "C:\\Users\\sawam\\source\\repos\\ExpenceTrackingSystemAPI\\WebApplication1\\Models\\RequestApiModels\\TransactionRequestAPI.cs",
+              "RelativeToolTip": "WebApplication1\\Models\\RequestApiModels\\TransactionRequestAPI.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwAwAAAA9AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-28T06:40:32.208Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "DAUser.cs",
+              "DocumentMoniker": "C:\\Users\\sawam\\source\\repos\\ExpenceTrackingSystemAPI\\WebApplication1\\DataAccess\\DAUser.cs",
+              "RelativeDocumentMoniker": "WebApplication1\\DataAccess\\DAUser.cs",
+              "ToolTip": "C:\\Users\\sawam\\source\\repos\\ExpenceTrackingSystemAPI\\WebApplication1\\DataAccess\\DAUser.cs",
+              "RelativeToolTip": "WebApplication1\\DataAccess\\DAUser.cs",
+              "ViewState": "AgIAACAAAAAAAAAAAAAiwB0AAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-21T10:54:38.178Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "DBConnect.cs",
+              "DocumentMoniker": "C:\\Users\\sawam\\source\\repos\\ExpenceTrackingSystemAPI\\WebApplication1\\DataBaseConnectivity\\DBConnect.cs",
+              "RelativeDocumentMoniker": "WebApplication1\\DataBaseConnectivity\\DBConnect.cs",
+              "ToolTip": "C:\\Users\\sawam\\source\\repos\\ExpenceTrackingSystemAPI\\WebApplication1\\DataBaseConnectivity\\DBConnect.cs",
+              "RelativeToolTip": "WebApplication1\\DataBaseConnectivity\\DBConnect.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAFAAAABOAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-22T04:11:09.788Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "RequestAPI.cs",
+              "DocumentMoniker": "C:\\Users\\sawam\\source\\repos\\ExpenceTrackingSystemAPI\\WebApplication1\\Models\\RequestAPI.cs",
+              "RelativeDocumentMoniker": "WebApplication1\\Models\\RequestAPI.cs",
+              "ToolTip": "C:\\Users\\sawam\\source\\repos\\ExpenceTrackingSystemAPI\\WebApplication1\\Models\\RequestAPI.cs",
+              "RelativeToolTip": "WebApplication1\\Models\\RequestAPI.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-22T05:27:31.969Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "TransactionController.cs",
+              "DocumentMoniker": "C:\\Users\\sawam\\source\\repos\\ExpenceTrackingSystemAPI\\WebApplication1\\Controllers\\TransactionController.cs",
+              "RelativeDocumentMoniker": "WebApplication1\\Controllers\\TransactionController.cs",
+              "ToolTip": "C:\\Users\\sawam\\source\\repos\\ExpenceTrackingSystemAPI\\WebApplication1\\Controllers\\TransactionController.cs",
+              "RelativeToolTip": "WebApplication1\\Controllers\\TransactionController.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAACMAAABBAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-23T04:14:41.477Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "TransactionRequestAPI.cs",
+              "DocumentMoniker": "C:\\Users\\sawam\\source\\repos\\ExpenceTrackingSystemAPI\\WebApplication1\\Models\\RequestApiModels\\TransactionRequestAPI.cs",
+              "RelativeDocumentMoniker": "WebApplication1\\Models\\RequestApiModels\\TransactionRequestAPI.cs",
+              "ToolTip": "C:\\Users\\sawam\\source\\repos\\ExpenceTrackingSystemAPI\\WebApplication1\\Models\\RequestApiModels\\TransactionRequestAPI.cs",
+              "RelativeToolTip": "WebApplication1\\Models\\RequestApiModels\\TransactionRequestAPI.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwBMAAAAXAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-23T05:14:47.403Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "UserRequestAPI.cs",
+              "DocumentMoniker": "C:\\Users\\sawam\\source\\repos\\ExpenceTrackingSystemAPI\\WebApplication1\\Models\\RequestApiModels\\UserRequestAPI.cs",
+              "RelativeDocumentMoniker": "WebApplication1\\Models\\RequestApiModels\\UserRequestAPI.cs",
+              "ToolTip": "C:\\Users\\sawam\\source\\repos\\ExpenceTrackingSystemAPI\\WebApplication1\\Models\\RequestApiModels\\UserRequestAPI.cs",
+              "RelativeToolTip": "WebApplication1\\Models\\RequestApiModels\\UserRequestAPI.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwAsAAAAWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-22T03:31:16.435Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "UserController.cs",
+              "DocumentMoniker": "C:\\Users\\sawam\\source\\repos\\ExpenceTrackingSystemAPI\\WebApplication1\\Controllers\\UserController.cs",
+              "RelativeDocumentMoniker": "WebApplication1\\Controllers\\UserController.cs",
+              "ToolTip": "C:\\Users\\sawam\\source\\repos\\ExpenceTrackingSystemAPI\\WebApplication1\\Controllers\\UserController.cs",
+              "RelativeToolTip": "WebApplication1\\Controllers\\UserController.cs",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAuwBoAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-21T09:32:50.537Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "RequestAPI.cs",
+              "DocumentMoniker": "C:\\Users\\sawam\\source\\repos\\ExpenceTrackingSystemAPI\\WebApplication1\\Models\\RequestAPI.cs",
+              "RelativeDocumentMoniker": "WebApplication1\\Models\\RequestAPI.cs",
+              "ToolTip": "C:\\Users\\sawam\\source\\repos\\ExpenceTrackingSystemAPI\\WebApplication1\\Models\\RequestAPI.cs",
+              "RelativeToolTip": "WebApplication1\\Models\\RequestAPI.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-28T06:40:32.147Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "UserRequestAPI.cs",
+              "DocumentMoniker": "C:\\Users\\sawam\\source\\repos\\ExpenceTrackingSystemAPI\\WebApplication1\\Models\\RequestApiModels\\UserRequestAPI.cs",
+              "RelativeDocumentMoniker": "WebApplication1\\Models\\RequestApiModels\\UserRequestAPI.cs",
+              "ToolTip": "C:\\Users\\sawam\\source\\repos\\ExpenceTrackingSystemAPI\\WebApplication1\\Models\\RequestApiModels\\UserRequestAPI.cs",
+              "RelativeToolTip": "WebApplication1\\Models\\RequestApiModels\\UserRequestAPI.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwAsAAAAmAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-28T06:40:32.106Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Response.cs",
+              "DocumentMoniker": "C:\\Users\\sawam\\source\\repos\\ExpenceTrackingSystemAPI\\WebApplication1\\Models\\Response.cs",
+              "RelativeDocumentMoniker": "WebApplication1\\Models\\Response.cs",
+              "ToolTip": "C:\\Users\\sawam\\source\\repos\\ExpenceTrackingSystemAPI\\WebApplication1\\Models\\Response.cs",
+              "RelativeToolTip": "WebApplication1\\Models\\Response.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAiAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-28T06:39:49.644Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "UserLoginRequest.cs",
+              "DocumentMoniker": "C:\\Users\\sawam\\source\\repos\\ExpenceTrackingSystemAPI\\WebApplication1\\Models\\RequestApiModels\\UserLoginRequest.cs",
+              "RelativeDocumentMoniker": "WebApplication1\\Models\\RequestApiModels\\UserLoginRequest.cs",
+              "ToolTip": "C:\\Users\\sawam\\source\\repos\\ExpenceTrackingSystemAPI\\WebApplication1\\Models\\RequestApiModels\\UserLoginRequest.cs",
+              "RelativeToolTip": "WebApplication1\\Models\\RequestApiModels\\UserLoginRequest.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-22T03:36:20.842Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "LogHandler.cs",
+              "DocumentMoniker": "C:\\Users\\sawam\\source\\repos\\ExpenceTrackingSystemAPI\\WebApplication1\\Static\\LogHandler.cs",
+              "RelativeDocumentMoniker": "WebApplication1\\Static\\LogHandler.cs",
+              "ToolTip": "C:\\Users\\sawam\\source\\repos\\ExpenceTrackingSystemAPI\\WebApplication1\\Static\\LogHandler.cs",
+              "RelativeToolTip": "WebApplication1\\Static\\LogHandler.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAABgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-22T10:21:47.003Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "Response.cs",
+              "DocumentMoniker": "C:\\Users\\sawam\\source\\repos\\ExpenceTrackingSystemAPI\\WebApplication1\\Models\\Response.cs",
+              "RelativeDocumentMoniker": "WebApplication1\\Models\\Response.cs",
+              "ToolTip": "C:\\Users\\sawam\\source\\repos\\ExpenceTrackingSystemAPI\\WebApplication1\\Models\\Response.cs",
+              "RelativeToolTip": "WebApplication1\\Models\\Response.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAiAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-22T03:58:34.008Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "UserForgotPasswordRequest.cs",
+              "DocumentMoniker": "C:\\Users\\sawam\\source\\repos\\ExpenceTrackingSystemAPI\\WebApplication1\\Models\\RequestApiModels\\UserForgotPasswordRequest.cs",
+              "RelativeDocumentMoniker": "WebApplication1\\Models\\RequestApiModels\\UserForgotPasswordRequest.cs",
+              "ToolTip": "C:\\Users\\sawam\\source\\repos\\ExpenceTrackingSystemAPI\\WebApplication1\\Models\\RequestApiModels\\UserForgotPasswordRequest.cs",
+              "RelativeToolTip": "WebApplication1\\Models\\RequestApiModels\\UserForgotPasswordRequest.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAxAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-22T03:57:36.778Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "CategoryRequestAPI.cs",
+              "DocumentMoniker": "C:\\Users\\sawam\\source\\repos\\ExpenceTrackingSystemAPI\\WebApplication1\\Models\\RequestApiModels\\CategoryRequestAPI.cs",
+              "RelativeDocumentMoniker": "WebApplication1\\Models\\RequestApiModels\\CategoryRequestAPI.cs",
+              "ToolTip": "C:\\Users\\sawam\\source\\repos\\ExpenceTrackingSystemAPI\\WebApplication1\\Models\\RequestApiModels\\CategoryRequestAPI.cs",
+              "RelativeToolTip": "WebApplication1\\Models\\RequestApiModels\\CategoryRequestAPI.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-23T08:49:37.619Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "ICategory.cs",
+              "DocumentMoniker": "C:\\Users\\sawam\\source\\repos\\ExpenceTrackingSystemAPI\\WebApplication1\\Interfaces\\ICategory.cs",
+              "RelativeDocumentMoniker": "WebApplication1\\Interfaces\\ICategory.cs",
+              "ToolTip": "C:\\Users\\sawam\\source\\repos\\ExpenceTrackingSystemAPI\\WebApplication1\\Interfaces\\ICategory.cs",
+              "RelativeToolTip": "WebApplication1\\Interfaces\\ICategory.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwA4AAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-23T08:43:58.88Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "TransactionModel.cs",
+              "DocumentMoniker": "C:\\Users\\sawam\\source\\repos\\ExpenceTrackingSystemAPI\\WebApplication1\\Models\\TransactionModel.cs",
+              "RelativeDocumentMoniker": "WebApplication1\\Models\\TransactionModel.cs",
+              "ToolTip": "C:\\Users\\sawam\\source\\repos\\ExpenceTrackingSystemAPI\\WebApplication1\\Models\\TransactionModel.cs",
+              "RelativeToolTip": "WebApplication1\\Models\\TransactionModel.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAxwBMAAAAvAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-23T10:36:52.973Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "DATransaction.cs",
+              "DocumentMoniker": "C:\\Users\\sawam\\source\\repos\\ExpenceTrackingSystemAPI\\WebApplication1\\DataAccess\\DATransaction.cs",
+              "RelativeDocumentMoniker": "WebApplication1\\DataAccess\\DATransaction.cs",
+              "ToolTip": "C:\\Users\\sawam\\source\\repos\\ExpenceTrackingSystemAPI\\WebApplication1\\DataAccess\\DATransaction.cs",
+              "RelativeToolTip": "WebApplication1\\DataAccess\\DATransaction.cs",
+              "ViewState": "AgIAAEgBAAAAAAAAAAAwwF4BAABoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-23T04:16:44.303Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "UserResetPasswordRequest.cs",
+              "DocumentMoniker": "C:\\Users\\sawam\\source\\repos\\ExpenceTrackingSystemAPI\\WebApplication1\\Models\\RequestApiModels\\UserResetPasswordRequest.cs",
+              "RelativeDocumentMoniker": "WebApplication1\\Models\\RequestApiModels\\UserResetPasswordRequest.cs",
+              "ToolTip": "C:\\Users\\sawam\\source\\repos\\ExpenceTrackingSystemAPI\\WebApplication1\\Models\\RequestApiModels\\UserResetPasswordRequest.cs",
+              "RelativeToolTip": "WebApplication1\\Models\\RequestApiModels\\UserResetPasswordRequest.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-22T03:59:38.598Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "DACategory.cs",
+              "DocumentMoniker": "C:\\Users\\sawam\\source\\repos\\ExpenceTrackingSystemAPI\\WebApplication1\\DataAccess\\DACategory.cs",
+              "RelativeDocumentMoniker": "WebApplication1\\DataAccess\\DACategory.cs",
+              "ToolTip": "C:\\Users\\sawam\\source\\repos\\ExpenceTrackingSystemAPI\\WebApplication1\\DataAccess\\DACategory.cs",
+              "RelativeToolTip": "WebApplication1\\DataAccess\\DACategory.cs",
+              "ViewState": "AgIAAEgAAAAAAAAAAAAAwFMAAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-23T08:43:24.18Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "ITransaction.cs",
+              "DocumentMoniker": "C:\\Users\\sawam\\source\\repos\\ExpenceTrackingSystemAPI\\WebApplication1\\Interfaces\\ITransaction.cs",
+              "RelativeDocumentMoniker": "WebApplication1\\Interfaces\\ITransaction.cs",
+              "ToolTip": "C:\\Users\\sawam\\source\\repos\\ExpenceTrackingSystemAPI\\WebApplication1\\Interfaces\\ITransaction.cs",
+              "RelativeToolTip": "WebApplication1\\Interfaces\\ITransaction.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAABCAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-23T04:32:17.936Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "DailyTotalsModel.cs",
+              "DocumentMoniker": "C:\\Users\\sawam\\source\\repos\\ExpenceTrackingSystemAPI\\WebApplication1\\Models\\DailyTotalsModel.cs",
+              "RelativeDocumentMoniker": "WebApplication1\\Models\\DailyTotalsModel.cs",
+              "ToolTip": "C:\\Users\\sawam\\source\\repos\\ExpenceTrackingSystemAPI\\WebApplication1\\Models\\DailyTotalsModel.cs",
+              "RelativeToolTip": "WebApplication1\\Models\\DailyTotalsModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-24T09:38:24.033Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "CategorySummaryModel.cs",
+              "DocumentMoniker": "C:\\Users\\sawam\\source\\repos\\ExpenceTrackingSystemAPI\\WebApplication1\\Models\\CategorySummaryModel.cs",
+              "RelativeDocumentMoniker": "WebApplication1\\Models\\CategorySummaryModel.cs",
+              "ToolTip": "C:\\Users\\sawam\\source\\repos\\ExpenceTrackingSystemAPI\\WebApplication1\\Models\\CategorySummaryModel.cs",
+              "RelativeToolTip": "WebApplication1\\Models\\CategorySummaryModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-24T08:55:12.505Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "CategoryController.cs",
+              "DocumentMoniker": "C:\\Users\\sawam\\source\\repos\\ExpenceTrackingSystemAPI\\WebApplication1\\Controllers\\CategoryController.cs",
+              "RelativeDocumentMoniker": "WebApplication1\\Controllers\\CategoryController.cs",
+              "ToolTip": "C:\\Users\\sawam\\source\\repos\\ExpenceTrackingSystemAPI\\WebApplication1\\Controllers\\CategoryController.cs",
+              "RelativeToolTip": "WebApplication1\\Controllers\\CategoryController.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAACIAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-23T08:42:03.685Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "CategoryModel.cs",
+              "DocumentMoniker": "C:\\Users\\sawam\\source\\repos\\ExpenceTrackingSystemAPI\\WebApplication1\\Models\\CategoryModel.cs",
+              "RelativeDocumentMoniker": "WebApplication1\\Models\\CategoryModel.cs",
+              "ToolTip": "C:\\Users\\sawam\\source\\repos\\ExpenceTrackingSystemAPI\\WebApplication1\\Models\\CategoryModel.cs",
+              "RelativeToolTip": "WebApplication1\\Models\\CategoryModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwA4AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-23T09:12:59.571Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "DAEmployee.cs",
+              "DocumentMoniker": "C:\\Users\\sawam\\source\\repos\\ExpenceTrackingSystemAPI\\WebApplication1\\DataAccess\\DAEmployee.cs",
+              "RelativeDocumentMoniker": "WebApplication1\\DataAccess\\DAEmployee.cs",
+              "ToolTip": "C:\\Users\\sawam\\source\\repos\\ExpenceTrackingSystemAPI\\WebApplication1\\DataAccess\\DAEmployee.cs",
+              "RelativeToolTip": "WebApplication1\\DataAccess\\DAEmployee.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-24T08:34:39.193Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "UnityConfig.cs",
+              "DocumentMoniker": "C:\\Users\\sawam\\source\\repos\\ExpenceTrackingSystemAPI\\WebApplication1\\App_Start\\UnityConfig.cs",
+              "RelativeDocumentMoniker": "WebApplication1\\App_Start\\UnityConfig.cs",
+              "ToolTip": "C:\\Users\\sawam\\source\\repos\\ExpenceTrackingSystemAPI\\WebApplication1\\App_Start\\UnityConfig.cs",
+              "RelativeToolTip": "WebApplication1\\App_Start\\UnityConfig.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAUwBIAAAAsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-22T05:12:16.331Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "IUser.cs",
+              "DocumentMoniker": "C:\\Users\\sawam\\source\\repos\\ExpenceTrackingSystemAPI\\WebApplication1\\Interfaces\\IUser.cs",
+              "RelativeDocumentMoniker": "WebApplication1\\Interfaces\\IUser.cs",
+              "ToolTip": "C:\\Users\\sawam\\source\\repos\\ExpenceTrackingSystemAPI\\WebApplication1\\Interfaces\\IUser.cs",
+              "RelativeToolTip": "WebApplication1\\Interfaces\\IUser.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwA0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-21T16:36:35.278Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "UserModel.cs",
+              "DocumentMoniker": "C:\\Users\\sawam\\source\\repos\\ExpenceTrackingSystemAPI\\WebApplication1\\Models\\UserModel.cs",
+              "RelativeDocumentMoniker": "WebApplication1\\Models\\UserModel.cs",
+              "ToolTip": "C:\\Users\\sawam\\source\\repos\\ExpenceTrackingSystemAPI\\WebApplication1\\Models\\UserModel.cs",
+              "RelativeToolTip": "WebApplication1\\Models\\UserModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-22T03:27:00.676Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "ITest.cs",
+              "DocumentMoniker": "C:\\Users\\sawam\\source\\repos\\ExpenceTrackingSystemAPI\\WebApplication1\\Interfaces\\ITest.cs",
+              "RelativeDocumentMoniker": "WebApplication1\\Interfaces\\ITest.cs",
+              "ToolTip": "C:\\Users\\sawam\\source\\repos\\ExpenceTrackingSystemAPI\\WebApplication1\\Interfaces\\ITest.cs",
+              "RelativeToolTip": "WebApplication1\\Interfaces\\ITest.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-22T05:17:01.612Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "IEmployee.cs",
+              "DocumentMoniker": "C:\\Users\\sawam\\source\\repos\\ExpenceTrackingSystemAPI\\WebApplication1\\Interfaces\\IEmployee.cs",
+              "RelativeDocumentMoniker": "WebApplication1\\Interfaces\\IEmployee.cs",
+              "ToolTip": "C:\\Users\\sawam\\source\\repos\\ExpenceTrackingSystemAPI\\WebApplication1\\Interfaces\\IEmployee.cs",
+              "RelativeToolTip": "WebApplication1\\Interfaces\\IEmployee.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-22T05:17:04.8Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 33,
+              "Title": "ProcedureDBModel.cs",
+              "DocumentMoniker": "C:\\Users\\sawam\\source\\repos\\ExpenceTrackingSystemAPI\\WebApplication1\\Models\\ProcedureDBModel.cs",
+              "RelativeDocumentMoniker": "WebApplication1\\Models\\ProcedureDBModel.cs",
+              "ToolTip": "C:\\Users\\sawam\\source\\repos\\ExpenceTrackingSystemAPI\\WebApplication1\\Models\\ProcedureDBModel.cs",
+              "RelativeToolTip": "WebApplication1\\Models\\ProcedureDBModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-22T05:27:30.401Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
