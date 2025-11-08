@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
 using System.IO;
 using System.Linq;
@@ -12,11 +12,12 @@ namespace WebApplication1.Models
         public int UserID { get; set; }
         public string Type { get; set; }
         public string Name { get; set; }
-        public DateTime Date { get; set; }
+        public string Date { get; set; }
         public decimal Amount { get; set; }
         public string Category { get; set; }
         public string Note { get; set; }
-        public DateTime CreatedAt { get; set; }
-        public DateTime UpdatedAt { get; set; }
+        public string Status { get; set; }
+        public string CreatedAt { get; set; }
+        public string UpdatedAt { get; set; }
     }
 }
