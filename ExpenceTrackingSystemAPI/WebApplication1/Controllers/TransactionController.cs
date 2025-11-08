@@ -43,6 +43,12 @@ namespace WebApplication1.Controllers
             return Json(result, JsonRequestBehavior.AllowGet);
         }
         [HttpGet]
+        public ActionResult GetAllInactiveTransactions(TransactionRequestAPI request)
+        {
+            var result = _transaction.GetAllInactiveTransactions(request);
+            return Json(result, JsonRequestBehavior.AllowGet);
+        }
+        [HttpGet]
         public ActionResult GetTotalIncomeExpense(int userId, DateTime? startDate = null, DateTime? endDate = null)
         {
             var result = _transaction.GetTotalIncomeExpense(userId, startDate, endDate);
