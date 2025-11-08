@@ -1,4 +1,4 @@
-﻿using biZTrack.Static;
+using biZTrack.Static;
 using System;
 using System.Collections.Generic;
 using System.Data;
@@ -16,12 +16,17 @@ namespace WebApplication1.DataAccess
     {
         private readonly string ProcedureName = "sp_Transactions";
 
+
+        // ADD TRANSACTION
+
         public Response AddTransaction(TransactionRequestAPI requestAPI)
         {
             Response result = new Response();
             try
             {
-                requestAPI.ActionType = "1";
+                requestAPI.ActionType = "1"; // Add
+                if (string.IsNullOrEmpty(requestAPI.Status))
+                    requestAPI.Status = "Active"; // ✅ Default to Active if not provided
 
                 using (var dbConnect = new DBconnect())
                 {
@@ -54,12 +59,18 @@ namespace WebApplication1.DataAccess
 
             return result;
         }
+
+        // UPDATE TRANSACTION
+
         public Response UpdateTransaction(TransactionRequestAPI requestAPI)
         {
             Response result = new Response();
             try
             {
-                requestAPI.ActionType = "2"; // Update fun
+                requestAPI.ActionType = "2"; // Update
+                if (string.IsNullOrEmpty(requestAPI.Status))
+                    requestAPI.Status = "Active"; // ✅ Keep Active by default unless changed
+
                 using (var dbConnect = new DBconnect())
                 {
                     ProcedureDBModel res = dbConnect.ProcedureRead(requestAPI, ProcedureName);
@@ -85,12 +96,16 @@ namespace WebApplication1.DataAccess
             }
             return result;
         }
+
+
+        // DELETE TRANSACTION
+
         public Response DeleteTransaction(TransactionRequestAPI requestAPI)
         {
             Response result = new Response();
             try
             {
-                requestAPI.ActionType = "3"; // Delete but not check
+                requestAPI.ActionType = "3"; // Delete
                 using (var dbConnect = new DBconnect())
                 {
                     ProcedureDBModel res = dbConnect.ProcedureRead(requestAPI, ProcedureName);
@@ -115,45 +130,103 @@ namespace WebApplication1.DataAccess
             }
             return result;
         }
-        public Response GetAllTransactions(int userId)
+
+
+        // GET ALL TRANSACTIONS BY USER
+
+        //public Response GetAllTransactions(TransactionRequestAPI request)
+        //{
+        //    Response result = new Response();
+        //    try
+        //    {
+        //        TransactionRequestAPI requestAPI = new TransactionRequestAPI
+        //        {
+        //            ActionType = "4",
+                    
+        //        };
+
+        //        using (var dbConnect = new DBconnect())
+        //        {
+        //            ProcedureDBModel res = dbConnect.ProcedureRead(requestAPI, ProcedureName);
+
+        //            if (res.ResultStatusCode == "1")
+        //            {
+        //                List<TransactionModel> transactionList = new List<TransactionModel>();
+
+        //                foreach (DataRow row in res.ResultDataTable.Rows)
+        //                {
+        //                    TransactionModel transaction = new TransactionModel
+        //                    {
+        //                        TransactionID = Convert.ToInt32(row["TransactionID"]),
+        //                        UserID = Convert.ToInt32(row["UserID"]),
+        //                        Type = row["Type"].ToString(),
+        //                        Name = row["Name"].ToString(),
+        //                        Date = row["Date"].ToString(),
+        //                        Amount = Convert.ToDecimal(row["Amount"]),
+        //                        Category = row["Category"].ToString(),
+        //                        Note = row["Note"].ToString(),
+        //                        Status = row["Status"].ToString(), // ✅ Include Status
+        //                        CreatedAt = row["CreatedAt"].ToString(),
+        //                        UpdatedAt = row["UpdatedAt"].ToString()
+        //                    };
+        //                    transactionList.Add(transaction);
+        //                }
+
+        //                result.StatusCode = 200;
+        //                result.ResultSet = transactionList;
+        //            }
+        //            else
+        //            {
+        //                LogHandler.WriteToLog(res.ExceptionMessage, System.Reflection.MethodBase.GetCurrentMethod().Name);
+        //                result.StatusCode = 500;
+        //                result.Result = res.ExceptionMessage;
+        //            }
+        //        }
+        //    }
+        //    catch (Exception ex)
+        //    {
+        //        result.StatusCode = 500;
+        //        result.Result = "Exception occurred while retrieving transactions.";
+        //        LogHandler.WriteToLog(ex.Message, System.Reflection.MethodBase.GetCurrentMethod().Name);
+        //    }
+
+        //    return result;
+        //}
+        public Response GetAllTransactions(TransactionRequestAPI requestAPI)
         {
             Response result = new Response();
+            requestAPI.ActionType = "4";
+
             try
             {
-                TransactionRequestAPI requestAPI = new TransactionRequestAPI
-                {
-                    ActionType = "4",
-                    UserID = userId
-                };
-
                 using (var dbConnect = new DBconnect())
                 {
                     ProcedureDBModel res = dbConnect.ProcedureRead(requestAPI, ProcedureName);
 
                     if (res.ResultStatusCode == "1")
                     {
-                        List<TransactionModel> transactionList = new List<TransactionModel>();
-
+                        List<TransactionModel> dailyTotalsList = new List<TransactionModel>();
                         foreach (DataRow row in res.ResultDataTable.Rows)
                         {
-                            TransactionModel transaction = new TransactionModel
+                            TransactionModel daily = new TransactionModel
                             {
                                 TransactionID = Convert.ToInt32(row["TransactionID"]),
                                 UserID = Convert.ToInt32(row["UserID"]),
                                 Type = row["Type"].ToString(),
                                 Name = row["Name"].ToString(),
-                                Date = Convert.ToDateTime(row["Date"]),
+                                Date = row["Date"].ToString(),
                                 Amount = Convert.ToDecimal(row["Amount"]),
                                 Category = row["Category"].ToString(),
                                 Note = row["Note"].ToString(),
-                                CreatedAt = Convert.ToDateTime(row["CreatedAt"]),
-                                UpdatedAt = Convert.ToDateTime(row["UpdatedAt"])
+                                Status = row["Status"].ToString(), 
+                                CreatedAt = row["CreatedAt"].ToString(),
+                                UpdatedAt = row["UpdatedAt"].ToString()
                             };
-                            transactionList.Add(transaction);
+                            dailyTotalsList.Add(daily);
                         }
 
                         result.StatusCode = 200;
-                        result.ResultSet = transactionList;
+                        result.ResultSet = dailyTotalsList;
                     }
                     else
                     {
@@ -166,12 +239,70 @@ namespace WebApplication1.DataAccess
             catch (Exception ex)
             {
                 result.StatusCode = 500;
-                result.Result = "Exception occurred while retrieving transactions.";
+                result.Result = "Exception while retrieving daily totals.";
                 LogHandler.WriteToLog(ex.Message, System.Reflection.MethodBase.GetCurrentMethod().Name);
             }
 
             return result;
         }
+        public Response GetAllInactiveTransactions(TransactionRequestAPI requestAPI)
+        {
+            Response result = new Response();
+            requestAPI.ActionType = "11";
+
+            try
+            {
+                using (var dbConnect = new DBconnect())
+                {
+                    ProcedureDBModel res = dbConnect.ProcedureRead(requestAPI, ProcedureName);
+
+                    if (res.ResultStatusCode == "1")
+                    {
+                        List<TransactionModel> dailyTotalsList = new List<TransactionModel>();
+                        foreach (DataRow row in res.ResultDataTable.Rows)
+                        {
+                            TransactionModel daily = new TransactionModel
+                            {
+                                TransactionID = Convert.ToInt32(row["TransactionID"]),
+                                UserID = Convert.ToInt32(row["UserID"]),
+                                Type = row["Type"].ToString(),
+                                Name = row["Name"].ToString(),
+                                Date = row["Date"].ToString(),
+                                Amount = Convert.ToDecimal(row["Amount"]),
+                                Category = row["Category"].ToString(),
+                                Note = row["Note"].ToString(),
+                                Status = row["Status"].ToString(),
+                                CreatedAt = row["CreatedAt"].ToString(),
+                                UpdatedAt = row["UpdatedAt"].ToString()
+                            };
+                            dailyTotalsList.Add(daily);
+                        }
+
+                        result.StatusCode = 200;
+                        result.ResultSet = dailyTotalsList;
+                    }
+                    else
+                    {
+                        LogHandler.WriteToLog(res.ExceptionMessage, System.Reflection.MethodBase.GetCurrentMethod().Name);
+                        result.StatusCode = 500;
+                        result.Result = res.ExceptionMessage;
+                    }
+                }
+            }
+            catch (Exception ex)
+            {
+                result.StatusCode = 500;
+                result.Result = "Exception while retrieving daily totals.";
+                LogHandler.WriteToLog(ex.Message, System.Reflection.MethodBase.GetCurrentMethod().Name);
+            }
+
+            return result;
+        }
+
+
+
+        // GET TOTAL INCOME & EXPENSE
+
         public Response GetTotalIncomeExpense(int userId, DateTime? startDate, DateTime? endDate)
         {
             Response result = new Response();
@@ -219,6 +350,10 @@ namespace WebApplication1.DataAccess
 
             return result;
         }
+
+
+        // GET CATEGORY TOTALS
+
         public Response GetCategoryTotals(int userId, DateTime? startDate, DateTime? endDate)
         {
             Response result = new Response();
@@ -268,6 +403,10 @@ namespace WebApplication1.DataAccess
             }
             return result;
         }
+
+
+        // GET DAILY TOTALS
+
         public Response GetDailyTotals(TransactionRequestAPI requestAPI)
         {
             Response result = new Response();
@@ -313,6 +452,10 @@ namespace WebApplication1.DataAccess
 
             return result;
         }
+
+
+        // GET TOTALS IN RANGE
+
         public Response GetRangeTotals(TransactionRequestAPI requestAPI)
         {
             Response result = new Response();
