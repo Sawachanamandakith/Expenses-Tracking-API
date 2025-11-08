@@ -1,10 +1,12 @@
-﻿using biZTrack.Static;
+using biZTrack.Static;
+using Newtonsoft.Json;
 using System;
 using System.Collections.Generic;
 using System.Data;
 using System.Data.SqlClient;
 using System.Linq;
 using System.Web;
+using WebApplication1.BusinessLayer;
 using WebApplication1.Database_Layer;
 using WebApplication1.Interfaces;
 using WebApplication1.Models;
@@ -53,46 +55,84 @@ namespace WebApplication1.DataAccess
             return result;
 
         }
-        public Response Login(UserLoginRequest requestAPI)
+
+
+    public Response Login(UserLoginRequest requestAPI)
         {
             Response result = new Response();
+
             try
             {
-                requestAPI.ActionType = "2"; 
+                requestAPI.ActionType = "2";
 
                 using (var dbConnect = new DBconnect())
                 {
-          
                     ProcedureDBModel res = dbConnect.ProcedureRead(requestAPI, ProcedureName);
 
-                    if (res.ResultStatusCode == "1")
+                    if (res.ResultDataTable != null && res.ResultDataTable.Rows.Count > 0)
                     {
-                        result.StatusCode = 200;
-                        result.Result = "Login successful!";
-                    }
-                    else if (res.ResultStatusCode == "-1")
-                    {
-                        result.StatusCode = 401;
-                        result.Result = "Invalid email or password.";
+                        var row = res.ResultDataTable.Rows[0];
+
+                        // Get password hash
+                        string dbHash = row.Table.Columns.Contains("Password") ? row["Password"]?.ToString() :
+                                        row.Table.Columns.Contains("PasswordHash") ? row["PasswordHash"]?.ToString() : null;
+
+                        // Get user info
+                        string dbEmail = row.Table.Columns.Contains("Email") ? row["Email"]?.ToString() : null;
+                        string dbUserName = row.Table.Columns.Contains("UserName") ? row["UserName"]?.ToString() : null;
+                        string dbUserID = row.Table.Columns.Contains("UserID") ? row["UserID"]?.ToString() : null;
+
+                        if (string.IsNullOrEmpty(dbHash))
+                        {
+                            result.StatusCode = 500;
+                            result.Result = "Password not found in DB.";
+                            return result;
+                        }
+
+                        // Validate password
+                        bool isPasswordValid = requestAPI.Password == dbHash ||
+                                               PasswordHasher.VerifyPassword(requestAPI.Password, dbHash);
+
+                        if (isPasswordValid)
+                        {
+                            string token = JwtTokenGenerator.GenerateToken(dbEmail, dbUserID);
+
+                            
+                            var userDetails = new LoginResponse
+                            {
+                               // Token = token,
+                                UserID = dbUserID,
+                               //UserName = dbUserName,
+                               //Email = dbEmail
+                            };
+
+                            result.StatusCode = 200;
+                            result.Result = JsonConvert.SerializeObject(userDetails); 
+                        }
+                        else
+                        {
+                            result.StatusCode = 401;
+                            result.Result = "Invalid password.";
+                        }
                     }
                     else
                     {
-                        result.StatusCode = 500;
-                        result.Result = "Error occurred.";
-                        LogHandler.WriteToLog(res.ExceptionMessage, System.Reflection.MethodBase.GetCurrentMethod().Name);
+                        result.StatusCode = 404;
+                        result.Result = "Email not found.";
                     }
                 }
             }
             catch (Exception ex)
             {
                 result.StatusCode = 500;
-                result.Result = "Exception occurred while logging in.";
-                LogHandler.WriteToLog(ex.Message, System.Reflection.MethodBase.GetCurrentMethod().Name);
+                result.Result = "Exception occurred while logging in: " + ex.Message;
+                LogHandler.WriteToLog(ex.ToString(), System.Reflection.MethodBase.GetCurrentMethod().Name);
             }
 
             return result;
         }
-        public Response ForgotPassword(UserForgotPasswordRequest requestAPI)
+
+     public Response ForgotPassword(UserForgotPasswordRequest requestAPI)
         {
             Response result = new Response();
             try
