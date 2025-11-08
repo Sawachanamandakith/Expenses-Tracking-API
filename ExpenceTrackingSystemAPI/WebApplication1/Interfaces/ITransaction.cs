@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
 using System.IO;
 using System.Linq;
@@ -14,7 +14,8 @@ namespace WebApplication1.Interfaces
 
         Response UpdateTransaction(TransactionRequestAPI requestAPI);
         Response DeleteTransaction(TransactionRequestAPI requestAPI);
-        Response GetAllTransactions(int userId);
+        Response GetAllTransactions(TransactionRequestAPI requestAPI);
+        Response GetAllInactiveTransactions(TransactionRequestAPI requestAPI);
         Response GetTotalIncomeExpense(int userId, DateTime? startDate, DateTime? endDate);
         Response GetCategoryTotals(int userId, DateTime? startDate, DateTime? endDate);
         Response GetDailyTotals(TransactionRequestAPI requestAPI);
