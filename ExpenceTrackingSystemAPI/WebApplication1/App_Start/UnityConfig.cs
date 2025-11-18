@@ -17,6 +17,10 @@ namespace WebApplication1
             container.RegisterType<ITransaction, DATransaction>();
 
             container.RegisterType<ICategory, DACategory>();
+
+            container.RegisterType<IFinancialGoal, DAFinancialGoal>();
+
+            container.RegisterType<IWishList, DAWishList>();
       
             DependencyResolver.SetResolver(new UnityDependencyResolver(container));
         }
